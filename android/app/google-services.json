@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456456149065",
+    "project_id": "otpprovider-one",
+    "storage_bucket": "otpprovider-one.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456456149065:android:43c1224cb42f1bc3b18798",
+        "android_client_info": {
+          "package_name": "com.example.otp_provider_21_03_24"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbaStjn7n7bHU-wNeVaPKem__92QpAtlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
