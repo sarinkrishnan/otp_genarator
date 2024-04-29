@@ -51,13 +51,13 @@ class OtpProvider extends ChangeNotifier {
     } on FirebaseException catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: Text(
-        e.message ?? '! error !',
+        e.message ?? 'error',
         style: TextStyle(color: Colors.redAccent),
       )));
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
           content: Text(
-        ' error !!!',
+        ' error',
         style: TextStyle(color: Colors.redAccent),
       )));
     }
